@@ -399,4 +399,12 @@ Jalan!
 
     Saya hanya menambah direktori database yang permission-nya untuk `mysql-group`. Yaitu `/db`.
 
-2. Remote Repository belum saya buat.
+2. Commit
+
+    ```bash
+    $ git add .
+    $ git commit -m "Environment for Application"
+    $ git log --oneline
+    8db93fb (HEAD -> master) Environment for Application
+    git remote add origin https://github.com/wandyatmono/widuran-rest.git
+    
